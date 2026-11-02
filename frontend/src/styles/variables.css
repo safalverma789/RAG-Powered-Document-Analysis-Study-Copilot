@@ -1,0 +1,71 @@
+:root {
+  /* Surface & Canvas Palette (Deep Obsidian / Pitch Black) */
+  --bg-canvas: #070709;
+  --bg-surface: #0d0d12;
+  --bg-sidebar: #09090e;
+  --bg-card: #121218;
+  --bg-card-glass: rgba(18, 18, 24, 0.75);
+  --bg-card-hover: #181822;
+  --bg-input: #0b0b10;
+  
+  /* Scarlet & Crimson Accents */
+  --crimson-50: #fff1f2;
+  --crimson-100: #ffe4e6;
+  --crimson-200: #fecdd3;
+  --crimson-300: #fda4af;
+  --crimson-400: #fb7185;
+  --crimson-500: #e11d48;
+  --crimson-600: #be123c;
+  --crimson-700: #9f1239;
+  --crimson-800: #881337;
+  --crimson-900: #4c0519;
+  --crimson-pure: #ff1a48;
+  
+  /* Vibrant Gradients */
+  --gradient-crimson: linear-gradient(135deg, #ff2a55 0%, #e11d48 50%, #9f1239 100%);
+  --gradient-dark-radial: radial-gradient(circle at 50% 0%, rgba(225, 29, 72, 0.15) 0%, transparent 60%);
+  --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+  --gradient-glow-border: linear-gradient(90deg, rgba(225, 29, 72, 0.5), rgba(255, 42, 85, 0.2), transparent);
+  
+  /* Glow Effects */
+  --glow-crimson-sm: 0 0 12px rgba(225, 29, 72, 0.35);
+  --glow-crimson-md: 0 0 24px rgba(225, 29, 72, 0.45);
+  --glow-crimson-lg: 0 0 45px rgba(225, 29, 72, 0.55);
+  
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-card: rgba(255, 255, 255, 0.12);
+  --border-crimson: rgba(225, 29, 72, 0.3);
+  --border-crimson-strong: rgba(225, 29, 72, 0.65);
+  
+  /* Typography Colors */
+  --text-primary: #ffffff;
+  --text-secondary: #a3a3af;
+  --text-muted: #71717f;
+  --text-crimson: #ff335c;
+  
+  /* Functional Accents */
+  --accent-success: #10b981;
+  --accent-success-glow: rgba(16, 185, 129, 0.3);
+  --accent-warning: #f59e0b;
+  --accent-info: #3b82f6;
+  
+  /* Shadows & Depth */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.6);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.7);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.85);
+  --shadow-crimson: 0 10px 30px -10px rgba(225, 29, 72, 0.5);
+
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+  
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+}
